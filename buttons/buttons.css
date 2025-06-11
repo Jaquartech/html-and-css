@@ -1,10 +1,13 @@
-button {
+.subscribe-button, .join-button {
+  cursor: pointer;
+}
+
+.subscribe-button {
   background-color: rgb(190, 7, 7);
   color: white;
   border: none;
   padding: 10px 16px;
   border-radius: 2px;
-  cursor: pointer;
   transition: opacity 0.15s;
 }
 
@@ -15,3 +18,18 @@ button:hover {
 button:active {
   opacity: 0.5;
 }
+
+.join-button {
+  background-color: white;
+  color: rgb(3, 72, 161) ;
+  border: 1px solid rgb(6, 95, 212);
+  padding: 9px 14px;
+  border-radius: 2px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+  background-color:   rgb(1, 42, 155);;
+  color: white;
+}
+
