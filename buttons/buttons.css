@@ -40,7 +40,7 @@
   color: white;
 }
 
-.tweet-button {
+.tweet-button, .youtube {
   color: white;
   background-color: rgb(6, 144, 218);
   border: none;
@@ -52,4 +52,9 @@
 
 .tweet-button:hover {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.youtube a {
+  color: rgb(18, 19, 4);
+  text-decoration: none;
 }
