@@ -1,0 +1,38 @@
+
+body {
+  padding-top: 80px;
+}
+
+
+p {
+  margin: 0;
+  font-family: Robot, sans-serif;
+}
+
+.text-container {
+  width: 284px;
+  line-height: 24px;
+}
+
+.video-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.video-stats {
+  margin-top: 8px;
+}
+
+.video-author {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.video-author, .video-stats, .video-desc {
+ font-size: 14px;
+ color: rgb(57, 47, 47);
+}
+
+.video-desc {
+ line-height: 20px;
+}
