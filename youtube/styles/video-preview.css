@@ -3,7 +3,6 @@ p {
 }
 
 .video-preview-container {
-  /* border: 2px solid red; */
   width: 300px;
 }
 
@@ -26,7 +25,6 @@ img {
 
 .video-content-container {
   width: 240px;
-  /* border: 1px solid red; */
   display: inline-block;
 }
 
