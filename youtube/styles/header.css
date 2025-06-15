@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  height: 55px;
+}
+
+.left-container {
+  background-color: lightblue;
+  display: flex;
+}
+
+.middle-container {
+  background-color: lightcoral;
+  flex: 1;
+  margin-left: 55px;
+  margin-right: 40px;
+}
+
+.right-container {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.youtube-logo {
+  width: 90px;
+}
+.hamburger {
+  width: 25px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
