@@ -4,15 +4,16 @@ header {
 }
 
 .left-container {
-  background-color: lightblue;
   display: flex;
 }
 
 .middle-container {
-  background-color: lightcoral;
   flex: 1;
   margin-left: 55px;
-  margin-right: 40px;
+  margin-right: 200px;
+  display: flex;
+  display: flex;
+  align-items: center;
 }
 
 .right-container {
@@ -27,4 +28,48 @@ header {
   width: 25px;
   margin-left: 22px;
   margin-right: 22px;
+}
+
+/* Middle section below*/
+
+.search-icon, .voice-search-icon {
+  width: 24px;
+}
+
+.search-button {
+  width: 65px;
+  height: 40.5px;
+  margin-left: -2px;
+  padding-top: 5px;
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgb(196, 193, 193);
+}
+
+.search-field {
+  flex: 1;
+  height: 37.5px;
+  width: 8px;
+  max-width: 360px;
+  border: 1px solid rgb(196, 193, 193);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.voice-search-icon {
+  width: 24px;
+}
+
+.voice-search-button {
+  height: 38px;
+  margin-left: 8px;
+  border-radius: 19px;
+  border: none;
+  width: 38px;
+  padding-top: 5px;
+  background-color: rgb(241, 241, 241);
+}
+
+.search-field::placeholder {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  padding-left: 8px;
 }
