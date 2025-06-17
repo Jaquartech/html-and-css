@@ -13,9 +13,6 @@ img {
 
 .profile-picture-container {
   width: 50px;
-  /* border: 1px solid red; */
-  display: inline-block;
-  vertical-align: top;
 }
 
 .profile-picture {
@@ -24,7 +21,7 @@ img {
 }
 
 .video-content-container {
-  width: 240px;
+  flex: 1;
   display: inline-block;
 }
 
@@ -47,4 +44,21 @@ img {
 
 .thumbnail-container {
   margin-bottom: 10px;
+  position: relative;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 6px;
+  bottom: 10px;
+  font-size: 12px;
+  padding: 4px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  border-radius: 2px;
+}
+
+.channel-video-content-container {
+  display: flex;
 }
