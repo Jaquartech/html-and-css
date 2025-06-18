@@ -3,12 +3,11 @@ p {
 }
 
 .video-preview-container {
-  width: 300px;
+  /* width: 300px; */
 }
 
-img {
-  width: 300px;
-
+.thumbnail-image {
+  width:  100%;
 }
 
 .profile-picture-container {
@@ -22,7 +21,6 @@ img {
 
 .video-content-container {
   flex: 1;
-  display: inline-block;
 }
 
 .video-title {
@@ -31,10 +29,12 @@ img {
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .video-author {
   margin-bottom: 4px;
+  cursor: pointer;
 }
 
 .video-author, .video-stat {
@@ -45,6 +45,9 @@ img {
 .thumbnail-container {
   margin-bottom: 10px;
   position: relative;
+  cursor: pointer;
+  z-index: 10;
+  
 }
 
 .video-time {
@@ -61,4 +64,25 @@ img {
 
 .channel-video-content-container {
   display: flex;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 15px;
+  row-gap: 45px;
+}
+
+/* ≥ 869px → 3 columns */
+@media (min-width: 869px) {
+  .grid-layout {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ≥ 1126px → 4 columns */
+@media (min-width: 1126px) {
+  .grid-layout {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
